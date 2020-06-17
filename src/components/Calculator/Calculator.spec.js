@@ -19,14 +19,14 @@ describe('Calculator component', () => {
 
         expect(wrapper.containsAllMatchingElements(
             [
-                <Display displayValue={"0"} />,
-                <Keypad
-                    callOperator={jest.fn()}
-                    numbers={[]}
-                    operators={[]}
-                    setOperator={jest.fn()}
-                    updateDisplay={jest.fn()}
-                />
+                <Display displayValue={'0'} />,
+                // <Keypad
+                //     callOperator={'func'}
+                //     numbers={[]}
+                //     operators={[]}
+                //     setOperator={'func'}
+                //     updateDisplay={'func'}
+                // />
             ]
         )).toEqual(true);
     });
